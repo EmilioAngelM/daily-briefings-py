@@ -1,4 +1,4 @@
-from flask import Blueprint, request, jsonify, redirect, flash
+from flask import Blueprint, request, jsonify, redirect, flash, render_template
 
 from app.weather_service import get_hourly_forecasts
 
